@@ -32,6 +32,8 @@ Change the default password.
 
 wget https://raw.githubusercontent.com/afroguys/telbot/main/telegram_torrent_bot.service; sudo mv telegram_torrent_bot.service /etc/systemd/system/
 
+[edit file according to your folder]
+
 sudo systemctl enable telegram_torrent_bot
 
 sudo systemctl start telegram_torrent_bot
