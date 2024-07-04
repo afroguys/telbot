@@ -29,3 +29,10 @@ Open the Web UI in a browser or using a tool like curl.
 Change the default password.
 
 #############################################################
+
+sudo nano /etc/systemd/system/telegram_torrent_bot.service
+
+sudo systemctl enable telegram_torrent_bot
+
+sudo systemctl start telegram_torrent_bot
+
