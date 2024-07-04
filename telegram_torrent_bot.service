@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram Torrent Bot
+After=network.target
+
+[Service]
+User=your_username
+WorkingDirectory=/path/to/telegram_torrent_bot
+ExecStart=/usr/bin/python3 /path/to/telegram_torrent_bot/telegram_torrent_bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
